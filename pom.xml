@@ -230,9 +230,10 @@
 				<sonar.sources>.</sonar.sources>
 				<sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
 				<sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions>
-				<sonar.projectKey>jyothishkshatri_NoticeBoard</sonar.projectKey>
-                                <sonar.organization>jyothishkshatri</sonar.organization>
-                                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+				<sonar.projectKey>noticeboard</sonar.projectKey>
+				##<sonar.projectKey>jyothishkshatri_NoticeBoard</sonar.projectKey>
+                                ##<sonar.organization>jyothishkshatri</sonar.organization>
+                                ##<sonar.host.url>https://sonarcloud.io</sonar.host.url>
                         </properties>
 			<activation>
 				<activeByDefault>false</activeByDefault>
